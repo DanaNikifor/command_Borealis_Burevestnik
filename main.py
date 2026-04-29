@@ -9,7 +9,7 @@ from visualizer import Visualizer
 from logger import ConsoleLogger
 
 def main():
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     detector = Detector()
     visualizer = Visualizer()
     logger = ConsoleLogger(CONSOLE_UPDATE_RATE)
